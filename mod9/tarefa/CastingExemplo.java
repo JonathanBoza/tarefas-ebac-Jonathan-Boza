@@ -6,17 +6,18 @@ public class CastingExemplo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Lendo um número decimal
-        System.out.print("Digite um número decimal: ");
-        double numeroDouble = scanner.nextDouble();
+        // Lendo um número inteiro
+        System.out.print("Digite um número inteiro: ");
+        int numeroInt = scanner.nextInt();
 
-        // Fazendo o casting de double para int
-        int numeroInt = (int) numeroDouble;
+        // Convertendo de int para Integer (primitivo para wrapper)
+        Integer numeroWrapper = Integer.valueOf(numeroInt);
 
         // Imprimindo os valores
-        System.out.println("Valor original (double): " + numeroDouble);
-        System.out.println("Valor convertido (int): " + numeroInt);
+        System.out.println("Valor primitivo (int): " + numeroInt);
+        System.out.println("Valor Wrapper (Integer): " + numeroWrapper);
 
         scanner.close();
     }
 }
+

@@ -1,14 +1,13 @@
-# Tarefa Módulo 9 - Casting de Tipos Primitivos
+# Tarefa Módulo 9 - Casting de Tipo Primitivo para Wrapper
 
 ## ✅ Objetivo:
 Criar um programa em Java que:
-- Leia um número decimal do console
-- Armazene o número em uma variável primitiva
-- Converta o valor para outro tipo usando casting
-- Imprima o valor original e o valor convertido no console
+- Leia um número inteiro do console
+- Converta o valor primitivo (`int`) para um objeto Wrapper (`Integer`)
+- Imprima o valor primitivo e o valor Wrapper no console
 
 ## 🛠️ Descrição do Projeto:
-O programa realiza a leitura de um valor do tipo `double`, converte para `int` usando casting e imprime ambos os valores.
+O programa realiza a leitura de um valor do tipo `int`, converte para `Integer` utilizando o método `valueOf`, e imprime ambos os valores.
 
 ## 📂 Estrutura esperada:
 ```
