@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "mod5/src",
-        "mod5/PrimeiroProjeto/src"
+        "mod5/PrimeiroProjeto/src",
+        "mod6"
     ]
 }
