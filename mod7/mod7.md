@@ -16,13 +16,15 @@ Criar uma classe Java representando um objeto do mundo real, com:
 
 ## 📂 Estrutura:
 ```
-tarefa_classes/
-├── Carro.java
-└── TesteCarro.java
+mod7/
+└── tarefa_classes/
+    ├── Carro.java
+    ├── TesteCarro.java
+    └── mod7.md
 ```
 
 ## 🔗 Repositório no GitHub:
-[https://github.com/JonathanBoza/tarefas-ebac-Jonathan-Boza/tree/main/tarefa_classes](https://github.com/JonathanBoza/tarefas-ebac-Jonathan-Boza/tree/main/tarefa_classes)
+[https://github.com/JonathanBoza/tarefas-ebac-Jonathan-Boza/tree/main/mod7/tarefa_classes](https://github.com/JonathanBoza/tarefas-ebac-Jonathan-Boza/tree/main/mod7/tarefa_classes)
 
 ---
 
