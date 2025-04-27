@@ -1,30 +1,39 @@
-# Projeto CRUD de Cadastro de Cliente - Módulo 14
+# Cadastro de Cliente - Módulo 14
 
-## ✅ Objetivo:
-Desenvolver um pequeno projeto em Java simulando um cadastro de clientes em memória, aplicando as operações CRUD (Create, Read, Update, Delete).
+Projeto desenvolvido por **Jonathan Euzébio Boza** como parte do curso de Java da EBAC.
 
-## 🛠️ Funcionalidades implementadas:
-- **Create:** Cadastro de novos clientes (nome e idade).
-- **Read:** Listagem de todos os clientes cadastrados.
-- **Update:** Atualização dos dados de um cliente existente.
-- **Delete:** Remoção de um cliente cadastrado.
+## Descrição
 
-## 📂 Estrutura do projeto:
-```
-mod14/
-└── cadastro_cliente/
-    ├── Cliente.java
-    ├── CadastroCliente.java
-    └── README.md
-```
+Este projeto simula um cadastro de cliente utilizando operações CRUD (Create, Read, Update, Delete) diretamente na memória.
 
-## 📋 Descrição das Classes:
-- **Cliente.java:** Classe que representa o modelo de cliente com atributos `nome` e `idade`.
-- **CadastroCliente.java:** Classe principal que contém o método `main` para executar o CRUD na memória usando `ArrayList`.
+**Importante:** O projeto foi desenvolvido utilizando o **Visual Studio Code (VS Code)** e segue o padrão de pacotes organizados (`br.com.JonathanBoza.dao`, `br.com.JonathanBoza.domain`) e contém uma classe principal `Main.java` para execução.
 
-## 🔗 Repositório no GitHub:
-[https://github.com/JonathanBoza/tarefas-ebac-Jonathan-Boza/tree/main/mod14/cadastro_cliente](https://github.com/JonathanBoza/tarefas-ebac-Jonathan-Boza/tree/main/mod14/cadastro_cliente)
+## Estrutura do Projeto
+
+- `br.com.JonathanBoza.dao`
+  - `Dao.java`
+  - `ClienteDao.java`
+- `br.com.JonathanBoza.domain`
+  - `Cliente.java`
+- `Main.java`
+
+## Funcionalidades
+
+- Cadastrar um novo cliente
+- Listar todos os clientes cadastrados
+- Atualizar dados de um cliente
+- Remover um cliente do cadastro
+
+## Como executar
+
+1. Clone o repositório.
+2. Abra o projeto no **Visual Studio Code**.
+3. Certifique-se de ter o **Java** configurado no VS Code.
+4. Execute a classe `Main.java`.
+5. Utilize o console para interagir com o sistema de cadastro de clientes.
 
 ---
+
+Qualquer dúvida, estou à disposição!
 
 **Jonathan Euzébio Boza**
