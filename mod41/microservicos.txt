@@ -1,0 +1,7 @@
+O que eu entendi sobre microserviços
+
+Microserviços são uma forma de criar sistemas dividindo em partes menores. Cada microserviço faz uma função específica, como login, cadastro, ou pagamento. Eles funcionam separados, mas se comunicam entre si.
+
+Diferente de sistemas antigos que eram todos juntos (monolíticos), os microserviços são mais fáceis de atualizar e consertar, porque se um falha, os outros continuam funcionando.
+
+Com isso, o trabalho fica mais organizado, rápido e moderno. Cada parte pode ser feita com uma linguagem diferente e por equipes diferentes.
