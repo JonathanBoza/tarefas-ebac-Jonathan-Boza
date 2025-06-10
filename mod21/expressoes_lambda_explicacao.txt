@@ -1,0 +1,55 @@
+Data: 2025-05-02
+Aluno: Antoniopauloo
+
+Expressões Lambda em Java - Módulo 21
+
+Uma expressão lambda é uma forma curta de escrever uma implementação de uma interface que tem apenas um método (interface funcional). É como um método anônimo que não precisa pertencer a nenhuma classe.
+
+Exemplos práticos:
+
+// Expressão normal (forma tradicional)
+interface Calculadora {
+    int operacao(int a, int b);
+}
+
+// Implementação tradicional
+class Soma implements Calculadora {
+    @Override
+    public int operacao(int a, int b) {
+        return a + b;
+    }
+}
+
+// Uso tradicional
+Calculadora calc = new Soma();
+int resultado = calc.operacao(5, 3);
+
+// Agora a mesma coisa usando expressão lambda
+Calculadora calculadoraLambda = (a, b) -> a + b;
+int resultadoLambda = calculadoraLambda.operacao(5, 3);
+
+Principais diferenças:
+1. Sintaxe mais concisa: Lambda usa -> e não precisa de nome de método
+2. Menos código: Não precisa criar uma classe separada
+3. Mais legível: Especialmente para operações simples
+4. Ideal para interfaces funcionais: Interfaces com apenas um método abstrato
+
+Outro exemplo prático usando lambda com coleções:
+
+// Forma tradicional
+List<String> nomes = Arrays.asList("João", "Maria", "Pedro");
+for(String nome : nomes) {
+    System.out.println(nome);
+}
+
+// Com expressão lambda
+nomes.forEach(nome -> System.out.println(nome));
+// Ou ainda mais conciso
+nomes.forEach(System.out::println);
+
+As expressões lambda são muito úteis em:
+- Operações com streams
+- Tratamento de eventos
+- Programação funcional
+- Callbacks
+- Ordenação de coleções
