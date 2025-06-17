@@ -1,0 +1,59 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build with Maven",
+            "type": "shell",
+            "command": "mvn clean package",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Test with Maven",
+            "type": "shell",
+            "command": "mvn test",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run ClienteDAOTest",
+            "type": "shell",
+            "command": "mvn test -Dtest=ClienteDAOTest",
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run ProdutoDAOTest",
+            "type": "shell",
+            "command": "mvn test -Dtest=ProdutoDAOTest",
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run VendaDAOTest",
+            "type": "shell",
+            "command": "mvn test -Dtest=VendaDAOTest",
+            "group": "test",
+            "problemMatcher": []
+        },        {
+            "label": "Fix VendaDAOTest",
+            "type": "shell",
+            "command": "cd ${workspaceFolder} && mvn clean compile",
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "Rebuild Maven Project",
+            "type": "shell",
+            "command": "cd ${workspaceFolder} && mvn clean install -DskipTests",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

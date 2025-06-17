@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run AllTests",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "args": ["br.com.jeb.AllTests"],
+            "projectName": "mod25"
+        },
+        {
+            "type": "java",
+            "name": "Run ClienteDAOTest",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "args": ["br.com.jeb.ClienteDAOTest"],
+            "projectName": "mod25"
+        },
+        {
+            "type": "java",
+            "name": "Run ClienteServiceTest",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "args": ["br.com.jeb.ClienteServiceTest"],
+            "projectName": "mod25"
+        },
+        {
+            "type": "java",
+            "name": "Run ProdutoDAOTest",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "args": ["br.com.jeb.ProdutoDAOTest"],
+            "projectName": "mod25"
+        },
+        {
+            "type": "java",
+            "name": "Run ProdutoServiceTest",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "args": ["br.com.jeb.ProdutoServiceTest"],
+            "projectName": "mod25"
+        },
+        {
+            "type": "java",
+            "name": "Run VendaDAOTest",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "args": ["br.com.jeb.VendaDAOTest"],
+            "projectName": "mod25"
+        }
+    ]
+}
