@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f94fdaa7-b392-4c2a-91a6-736a25faea10" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/builder/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/builder/BurgerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/builder/CheeseBurgerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/builder/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/builder/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/builder/VeganBurgerBuidler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/factory/Brasilia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/factory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/factory/ContratosFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/factory/CorolaCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/factory/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/factory/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/factory/SemContratosFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/singleton/DemoSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/singleton/DemoSingletonPropriedade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/singleton/DemoSingletonPropriedadeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/singleton/DemoSingletonPropriedadeThreadSyncronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/singleton/SingletonPropriedade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jeb/singleton/SingletonPropriedadeSyncronized.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2yWO2sHRxujc6gPeRWToggmOAJY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo (1).executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.DemoSingleton.executor": "Debug",
+    "Application.DemoSingletonPropriedade.executor": "Debug",
+    "Application.DemoSingletonPropriedadeThread.executor": "Run",
+    "Application.DemoSingletonPropriedadeThreadSyncronized.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.br.com.jeb.factory.Demo.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/JebCode/Documents/EBAC/backend/mod15/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JebCode\Documents\EBAC\backend\mod15" />
+      <recent name="C:\Users\JebCode\Documents\EBAC\backend\mod15\src\br\com\jeb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Demo (1)">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="mod15" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.jeb.builder.Demo" />
+      <module name="mod15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.jeb.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoSingletonPropriedadeThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.jeb.singleton.DemoSingletonPropriedadeThread" />
+      <module name="mod15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.jeb.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoSingletonPropriedadeThreadSyncronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.jeb.singleton.DemoSingletonPropriedadeThreadSyncronized" />
+      <module name="mod15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.jeb.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.jeb.factory.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.jeb.factory.Demo" />
+      <module name="mod15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.jeb.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.br.com.jeb.factory.Demo" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.DemoSingletonPropriedadeThreadSyncronized" />
+        <item itemvalue="Application.DemoSingletonPropriedadeThread" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f94fdaa7-b392-4c2a-91a6-736a25faea10" name="Changes" comment="" />
+      <created>1749946660286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749946660286</updated>
+      <workItem from="1749952307129" duration="2689000" />
+      <workItem from="1749955195710" duration="557000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/jeb/singleton/DemoSingleton.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/jeb/singleton/DemoSingletonPropriedade.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/jeb/builder/Burger.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

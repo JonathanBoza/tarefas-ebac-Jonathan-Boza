@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ClienteTest",
+            "request": "launch",
+            "mainClass": "",
+            "projectName": "mod29",
+            "vmArgs": "-ea",
+            "args": "",
+            "console": "internalConsole",
+            "testKind": "junit",
+            "testClass": "br.com.jeb.ClienteTest"
+        }
+    ]
+}
