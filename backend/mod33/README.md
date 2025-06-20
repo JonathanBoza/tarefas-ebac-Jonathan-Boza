@@ -1,35 +1,40 @@
-# Módulo 33 - JPA Exercise
+# Módulo 33 - Exercício JPA
 
-This project demonstrates the use of JPA (Java Persistence API) to manage relationships between entities in a car database system.
+Este projeto demonstra o uso do JPA (Java Persistence API) para gerenciar relacionamentos entre entidades em um sistema de banco de dados de carros.
 
-## Author
+## Autor
 Jonathan Euzébio Boza
 
-## Project Structure
+## Estrutura do Projeto
 
-- `Brand`: Entity representing car brands
-- `Car`: Entity representing cars with a many-to-one relationship to Brand
+- `Brand`: Entidade que representa as marcas de carros
+- `Car`: Entidade que representa os carros com relacionamento muitos-para-um com Brand
+- `Acessorio`: Entidade que representa os acessórios com relacionamento muitos-para-muitos com Car
 
-## Database Configuration
+## Configuração do Banco de Dados
 
-The project uses H2 in-memory database. The database is automatically configured with these settings:
+O projeto usa banco de dados H2 em memória. O banco de dados é configurado automaticamente com estas configurações:
 
 - URL: jdbc:h2:mem:testdb
-- Username: sa
-- Password: (empty)
-- Console URL: http://localhost:8080/h2-console
+- Usuário: sa
+- Senha: (vazio)
+- URL do Console: http://localhost:8080/h2-console
 
-## Running the Project
+## Executando o Projeto
 
-1. Clone the repository
-2. Install dependencies using Maven
-3. Run the application using `mvn spring-boot:run`
-4. Access H2 console at http://localhost:8080/h2-console (make sure to use the exact URL)
+1. Clone o repositório
+2. Instale as dependências usando Maven
+3. Execute a aplicação usando `mvn spring-boot:run`
+4. Acesse o console H2 em http://localhost:8080/h2-console (use a URL exata)
 
-## Entity Relationships
+## Relacionamentos entre Entidades
 
-- One Brand can have many Cars (One-to-Many)
-- Each Car belongs to one Brand (Many-to-One)
+- Uma Marca pode ter muitos Carros (Um-para-Muitos)
+- Cada Carro pertence a uma Marca (Muitos-para-Um)
+- Carros podem ter múltiplos Acessórios (Muitos-para-Muitos)
+- Cada Acessório pode estar associado a múltiplos Carros (Muitos-para-Muitos)
+- Cars can have multiple Accessories (Many-to-Many)
+- Each Accessory can be associated with multiple Cars (Many-to-Many)
 
 ## Technologies Used
 
@@ -49,8 +54,17 @@ SELECT * FROM BRANDS;
 -- List all cars
 SELECT * FROM CARS;
 
+-- List all accessories
+SELECT * FROM ACESSORIOS;
+
 -- List all cars with their brand names
 SELECT c.*, b.name as brand_name 
 FROM CARS c 
 JOIN BRANDS b ON c.brand_id = b.id;
+
+-- List all cars with their accessories
+SELECT c.model, a.nome as acessorio_nome
+FROM CARS c 
+JOIN CAR_ACESSORIO ca ON c.id = ca.car_id
+JOIN ACESSORIOS a ON ca.acessorio_id = a.id;
 ```

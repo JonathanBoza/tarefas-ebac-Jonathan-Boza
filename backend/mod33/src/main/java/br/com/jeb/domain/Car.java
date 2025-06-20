@@ -2,6 +2,8 @@ package br.com.jeb.domain;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "cars")
@@ -20,6 +22,10 @@ public class Car implements Serializable {
     @ManyToOne
     @JoinColumn(name = "brand_id", nullable = false)
     private Brand brand;
+
+    @ManyToMany
+    @JoinTable(name = "car_acessorio", joinColumns = @JoinColumn(name = "car_id"), inverseJoinColumns = @JoinColumn(name = "acessorio_id"))
+    private Set<Acessorio> acessorios = new HashSet<>();
 
     public Long getId() {
         return id;
@@ -51,5 +57,13 @@ public class Car implements Serializable {
 
     public void setBrand(Brand brand) {
         this.brand = brand;
+    }
+
+    public Set<Acessorio> getAcessorios() {
+        return acessorios;
+    }
+
+    public void setAcessorios(Set<Acessorio> acessorios) {
+        this.acessorios = acessorios;
     }
 }
