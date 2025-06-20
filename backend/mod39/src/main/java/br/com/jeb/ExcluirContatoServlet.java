@@ -8,6 +8,7 @@ import java.io.IOException;
 
 @WebServlet("/excluir")
 public class ExcluirContatoServlet extends HttpServlet {
+    
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int id = Integer.parseInt(req.getParameter("id"));
         ContatoServlet.excluirContato(id);
