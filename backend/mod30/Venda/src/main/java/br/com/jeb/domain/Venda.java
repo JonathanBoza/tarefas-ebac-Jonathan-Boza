@@ -44,7 +44,7 @@ public class Venda implements Persistente {
 	@ColunaTabela(dbName = "data_venda", setJavaName = "setDataVenda")
 	private Instant dataVenda;
 	
-	@ColunaTabela(dbName = "status_venda", setJavaName = "setStatus")
+	@ColunaTabela(dbName = "status", setJavaName = "setStatus")
 	private Status status;
 	
 	public Venda() {

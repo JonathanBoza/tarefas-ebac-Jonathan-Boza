@@ -7,7 +7,9 @@ import br.com.jeb.dao.generic.GenericDAO;
 import br.com.jeb.domain.Cliente;
 
 public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO {
-	public ClienteDAO() {super();}
+	public ClienteDAO() {
+		super();
+	}
 
 	@Override
 	public Class<Cliente> getTipoClasse() {
@@ -24,14 +26,15 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		entityCadastrado.setNumero(entity.getNumero());
 		entityCadastrado.setTel(entity.getTel());
 		entityCadastrado.setCep(entity.getCep());
+		entityCadastrado.setEmail(entity.getEmail());
 	}
 
 	@Override
 	protected String getQueryInsercao() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("INSERT INTO TB_CLIENTE ");
-		sb.append("(ID, NOME, CPF, TEL, ENDERECO, NUMERO, CIDADE, ESTADO, CEP)");
-		sb.append("VALUES (nextval('sq_cliente'),?,?,?,?,?,?,?,?)");
+		sb.append("(ID, NOME, CPF, TEL, ENDERECO, NUMERO, CIDADE, ESTADO, CEP, EMAIL)");
+		sb.append("VALUES (nextval('sq_cliente'),?,?,?,?,?,?,?,?,?)");
 		return sb.toString();
 	}
 
@@ -45,6 +48,7 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		stmInsert.setString(6, entity.getCidade());
 		stmInsert.setString(7, entity.getEstado());
 		stmInsert.setString(8, entity.getCep());
+		stmInsert.setString(9, entity.getEmail());
 
 	}
 
@@ -57,7 +61,7 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 	protected void setParametrosQueryExclusao(PreparedStatement stmExclusao, Long valor) throws SQLException {
 		stmExclusao.setLong(1, valor);
 	}
-	
+
 	@Override
 	protected String getQueryAtualizacao() {
 		StringBuilder sb = new StringBuilder();
@@ -68,7 +72,8 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		sb.append("NUMERO = ?,");
 		sb.append("CIDADE = ?,");
 		sb.append("ESTADO = ?,");
-		sb.append("CEP = ?");
+		sb.append("CEP = ?,");
+		sb.append("EMAIL = ?");
 		sb.append(" WHERE CPF = ?");
 		return sb.toString();
 	}
@@ -82,7 +87,8 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		stmUpdate.setString(5, entity.getCidade());
 		stmUpdate.setString(6, entity.getEstado());
 		stmUpdate.setString(7, entity.getCep());
-		stmUpdate.setLong(8, entity.getCpf());
+		stmUpdate.setString(8, entity.getEmail());
+		stmUpdate.setLong(9, entity.getCpf());
 	}
 
 	@Override

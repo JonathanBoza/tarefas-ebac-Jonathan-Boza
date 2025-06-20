@@ -7,9 +7,14 @@ import br.com.jeb.dao.generic.GenericDAO;
 import br.com.jeb.domain.Produto;
 
 public class ProdutoDAO extends GenericDAO<Produto, String> implements IProdutoDAO {
-	public ProdutoDAO() {super();}
+	public ProdutoDAO() {
+		super();
+	}
+
 	@Override
-	public Class<Produto> getTipoClasse() {return Produto.class;}
+	public Class<Produto> getTipoClasse() {
+		return Produto.class;
+	}
 
 	@Override
 	public void atualiarDados(Produto entity, Produto entityCadastrado) {
@@ -17,14 +22,16 @@ public class ProdutoDAO extends GenericDAO<Produto, String> implements IProdutoD
 		entityCadastrado.setDescricao(entity.getDescricao());
 		entityCadastrado.setNome(entity.getNome());
 		entityCadastrado.setValor(entity.getValor());
+		entityCadastrado.setCategoria(entity.getCategoria());
+		entityCadastrado.setMarca(entity.getMarca());
 	}
 
 	@Override
 	protected String getQueryInsercao() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("INSERT INTO TB_PRODUTO ");
-		sb.append("(ID, CODIGO, NOME, DESCRICAO, VALOR, CATEGORIA)");
-		sb.append("VALUES (nextval('sq_produto'),?,?,?,?,?)");
+		sb.append("(ID, CODIGO, NOME, DESCRICAO, VALOR, CATEGORIA, MARCA)");
+		sb.append("VALUES (nextval('sq_produto'),?,?,?,?,?,?)");
 		return sb.toString();
 	}
 
@@ -35,6 +42,7 @@ public class ProdutoDAO extends GenericDAO<Produto, String> implements IProdutoD
 		stmInsert.setString(3, entity.getDescricao());
 		stmInsert.setBigDecimal(4, entity.getValor());
 		stmInsert.setString(5, entity.getCategoria());
+		stmInsert.setString(6, entity.getMarca());
 	}
 
 	@Override

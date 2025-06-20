@@ -13,22 +13,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JonathanBoza"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JonathanBoza&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:JonathanBoza/tarefas-ebac-Jonathan-Boza.git",
-    "accountId": "f36e570e-e503-4fc8-9837-337045e1f3c5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:JonathanBoza/tarefas-ebac-Jonathan-Boza.git&quot;,
+    &quot;accountId&quot;: &quot;f36e570e-e503-4fc8-9837-337045e1f3c5&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ykGvMx2m4QA6n92XLFXGbPFbKZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,6 +41,7 @@
     "JUnit.ClienteDAOTest.pesquisarCliente.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "backend",
     "last_opened_file_path": "C:/Users/JebCode/OneDrive/Documentos/EBAC/tarefas-ebac-Jonathan-Boza/backend/mod30/Venda",
     "node.js.detected.package.eslint": "true",
@@ -104,17 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Venda" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Venda" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="JUnit.ClienteDAOTest" />
       <item itemvalue="JUnit.AllTests" />
@@ -143,6 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750371390193</updated>
       <workItem from="1750371392745" duration="1057000" />
+      <workItem from="1750373437133" duration="9000" />
     </task>
     <servers />
   </component>
